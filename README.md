@@ -36,11 +36,11 @@ $alipay_config['key']           = 'dk2938rjd8dkejwisj19ekdjwisk10sj';
 In `alipayapi.php` file, where we need to set:
 ```php
 // asynchronous request made by alipay after users pay;
-$notify_url = "http://www.yourwebsite.com/.../notify_url.php";
+$notify_url = "http://www.besticecream.com/.../notify_url.php";
 
 // synchronous request(page redirect) after users pay
 // no parameters in url; no `http://localhost/` is allowed
-$return_url = "http://www.yourwebsite.com/.../return_url.php";
+$return_url = "http://www.besticecream.com/.../return_url.php";
 ```
 
 ### Payment process
